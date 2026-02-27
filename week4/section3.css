@@ -1,0 +1,66 @@
+
+body {
+    background-color: hsl(34, 86%, 46%);
+    font-family: 'Segoe UI', Arial, sans-serif;  /* Font styling */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.feedback {
+    width: 400px;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.feedback h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feedback label {
+    display: block;
+    margin-top: 12px;   
+    font-weight: 600;
+}
+
+
+.feedback input,
+.feedback textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.feedback textarea {
+    height: 120px;
+    resize: none;
+}
+
+.feedback input:focus,
+.feedback textarea:focus {
+    border: 2px solid #007bff;
+    outline: none;
+}
+
+
+.feedback input[type="submit"] {
+    margin-top: 15px;
+    background-color: hsl(323, 74%, 50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.feedback input[type="submit"]:hover {
+    background-color: hsl(69, 93%, 59%);
+}
